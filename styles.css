@@ -1,0 +1,13 @@
+img {
+	max-width: 100vh;
+	max-height: 50vh;
+	height: auto;
+}
+
+.height-override {
+	max-height: 75vh;
+}
+
+.cam-block {
+	padding-bottom: 2em;
+}
