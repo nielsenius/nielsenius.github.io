@@ -35,6 +35,8 @@ html {
 	max-height: 75vh;
 }
 
-.cam-block {
+.cam-block,
+.about,
+.resources {
 	padding-bottom: 2em;
 }
