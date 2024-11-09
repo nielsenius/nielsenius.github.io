@@ -9,21 +9,22 @@ html {
 
 .wrapper {
 	width: 80%;
+	max-width: 1080px;
 	height: 100%;
 	background: #CCC;
 }
 
-.h_iframe { 
+.iframe-block { 
 	position: relative;
 }
 
-.h_iframe .ratio {
+.iframe-block .ratio {
 	display: block;
 	width: 100%;
 	height: auto;
 }
 
-.h_iframe iframe {
+.iframe-block iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -39,4 +40,9 @@ html {
 .about,
 .resources {
 	padding-bottom: 2em;
+}
+
+.crop {
+	width: 80%;
+	overflow: hidden;
 }
