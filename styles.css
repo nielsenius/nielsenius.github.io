@@ -16,6 +16,7 @@ html {
 
 .iframe-block { 
 	position: relative;
+        aspect-ratio: 16 / 9;
 }
 
 .iframe-block .ratio {
